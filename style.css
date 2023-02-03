@@ -1,0 +1,404 @@
+@charset "UTF-8";
+
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+body{
+    max-width: 100%;
+    width: 100%;
+}
+header{
+    margin: 0px;
+    display: inline;   
+}
+header a:hover{
+    color: rgb(0, 0, 0);
+}
+#jordan{
+    width: 20px;
+    background-color: #F7F7F7;
+}
+#snkrs{
+    width: 40px;
+    margin-left: 15px;
+    background-color: #F7F7F7;
+}
+.section1{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    width: 400px;
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 30px;
+    
+}
+.subheader-img{
+  display: block;
+  margin-left: 35px;
+}
+.subheader{
+    display: flex;
+}
+.subheader ul{
+    display: flex;
+    
+}
+.subheader li {
+    list-style: none;
+    width: 100%;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 200;
+}
+a{
+    text-decoration: none;
+    color: rgba(31, 31, 31, 0.747);
+}
+p{
+    padding-top: 7px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 0px;
+    font-size: 10px;
+}
+#one{
+    width: 290%;
+}
+#two{
+    padding-right: 20px;
+}
+#menu{
+    display: inline-flex; 
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
+    width: 100%;
+
+   
+}
+#nike{
+    width: 65px;
+    padding-left: 40px;
+    
+}
+.options{
+    font-size: 17px;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    
+}
+.options a {
+    text-align: center;
+    margin-right: 30px;
+}
+
+.buy{
+    display: flex;
+    text-align: left;
+    
+}
+
+input{
+    background-color: #F7F7F7;
+    margin-top: 14px;
+    margin-right: 40px;
+    width: 200px;
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    border: 0;
+}
+#carrinho{
+    width: 28px;
+    margin-top: 17px;
+    margin-right: 40px;
+    }
+
+.search-text{
+
+    font-size: 15px;
+}
+#search-img{
+    width: 12px;
+    position: absolute;
+    right: 285px;
+    top: 73px;    
+}
+figure{
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+    width: 1350px;
+}
+#chuteiraimg{
+    width: 1350px;
+}
+figure > img {
+    width: 1350px;
+
+}
+figure h1 {
+    font-weight: 200;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+video{
+    width: 100%;
+}
+#button{
+    text-align: center;
+}
+button{
+    height: 48px;
+    width: 125px;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+button:hover{
+    background-color: #000000a8;
+    border: 0px;
+    transition: 0.2s;
+    
+    font-size: 17px;
+    text-align: center;
+}
+#news{
+    margin-right: 4px;
+}
+#all{
+    margin-left: 4px;
+}
+.sale{
+    display: grid;
+    margin: auto;
+    max-width: 1350px;
+    grid-template-columns: repeat(4, 1fr);
+    
+
+}
+.sale img{
+    width: 334px;
+    
+}
+.banner{
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+    width: 1350px;
+}
+.banner h1{
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: 200;
+    font-size: 30px;
+}
+.banner img{
+    display: block;
+    align-items: center;
+    width: 1350px;
+}
+.saiba-mais{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    width: 100%;
+    max-width: 1350px;
+    margin-bottom: 250px;
+}
+#know-more{
+    display: block;
+    margin-left: px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: 200;
+    font-size: 30px;
+
+}
+.saiba-mais img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3px;
+    max-width: 328px;
+    width: 100%;
+    
+}
+.container-footer{
+    background-color: #111111; 
+    color: white;
+    
+    height: 415px;
+    
+
+}
+.container-footer a:hover{
+    color: #b8b8b8;
+}
+.sla {
+    padding: 0px 180px;
+    margin-left: 55px;
+    max-width: 1350px;
+    width: 100%;
+
+    }
+.row-footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1350px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 45px;
+    padding-right: 50px;
+    padding-bottom: 30pX;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    
+}
+.row-footer a {
+    color: white;
+}
+
+.row-footer ul{
+    padding-bottom: 3px;
+}
+.row-footer li {
+    list-style: none;
+    font-size: 12px;
+}
+
+.footer-col{
+    padding: 0px 15px 15px 15px;
+    font-weight: 10px;
+}
+.footer-col a {
+    text-decoration: none;
+    font-weight: 10px;
+    font-size: 14px;
+    padding-top: -10px;
+    padding-left: 60px;
+}
+.footer-col > h3{
+    font-weight: 100;
+    font-size: medium;
+    padding-left: 60px;
+    margin-bottom: 18px;
+    text-decoration: none;
+}
+.footer-help{
+    padding-left: 55px;
+    
+}
+.footer-help > h3{
+    font-weight: 100;
+    font-size: medium;
+    padding-bottom: 18px;
+}
+li {
+    margin-bottom: 8px;
+
+}
+.footer-about{
+    padding-left: 95px;
+    
+}
+.footer-about > h3{
+    font-weight: 100;
+    font-size: medium;
+    margin-bottom: 18px;
+}
+.aside-block{
+    display: block;
+}
+.footer-socias{
+    margin-left: 100px;
+    margin-bottom: 18px;
+}
+.big-block{
+    display: block;
+}
+.footer-socias > h3{
+    font-weight: 100;
+    font-size: medium;
+}
+.big-block img{
+    display: inline;
+    width: 20px;
+    margin-top: 10px;
+    margin-left: -10px;
+    padding: 13px;
+}
+
+.footer-payments{
+    display: block;
+    padding-left: 100px;
+}
+.footer-payments > a{
+    color: white;
+    padding: 15px;
+    margin-bottom: 18px;
+}
+.footer-payments > h3{
+    font-weight: 100;
+    font-size: medium;
+    margin-bottom: 20px;
+    
+}
+.pay-cards{
+    display: inline;
+    margin-right: 80px;
+    justify-content: left;
+
+}
+.footer-payments img{
+    background-color: #f7f7f7;
+    padding: 3px;
+    margin: 1px;
+    border-radius: 3px;
+    max-width: 35px;
+    width: 100%;
+    max-height: 40px;
+    height: 25px;
+}
+#horizontal-line{
+    font-weight: lighter;
+    width: 98%;
+    
+    
+}
+.sem-ideia{
+    display: block;
+    max-width: 1350PX;
+    Width: 100%;
+}
+.links-end{
+    
+
+}
+.links-end a {
+    font-size: 12px;
+    color: #F7F7F7;
+    padding-right: 40px;
+}
+#copyrigth {
+    font-size: 12px;
+    color: #d8d5d5;
+    text-align: right;
+    
+    
+}
+
